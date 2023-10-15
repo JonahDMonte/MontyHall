@@ -149,8 +149,9 @@ void machineLearning(int epochs, double learningrate)
     }
 }
 int main() {
-
-    machineLearning(99999999999, 0.000000001);
+    //comment out the winrate simulation if you want to see the "machine learning". It doesn't learn much.
+    winrateSimulation(999999999);
+    machineLearning(99999999999, 0.0001);
 
     return 0;
 }
